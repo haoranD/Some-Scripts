@@ -1,0 +1,466 @@
+
+cd 1
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 2
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 3
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 4
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 5
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+
+cd ..
+
+cd 6
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+
+cd ..
+
+cd 7
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+
+cd ..
+
+cd 8
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+
+cd ..
+
+cd 9
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 10
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 11
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 12
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 13
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 14
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 15
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 16
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 17
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 18
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+
+cd ..
+
+cd 19
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 20
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 21
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 22
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 23
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 24
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 25
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 26
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 27
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 28
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 29
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
+
+cd 30
+ffmpeg -i 1.avi 1/frames_%03d.jpg -hide_banner
+ffmpeg -i 2.avi 2/frames_%03d.jpg -hide_banner
+ffmpeg -i 3.avi 3/frames_%03d.jpg -hide_banner
+ffmpeg -i 4.avi 4/frames_%03d.jpg -hide_banner
+ffmpeg -i 5.avi 5/frames_%03d.jpg -hide_banner
+ffmpeg -i 6.avi 6/frames_%03d.jpg -hide_banner
+ffmpeg -i 7.avi 7/frames_%03d.jpg -hide_banner
+ffmpeg -i 8.avi 8/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_1.avi HR_1/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_2.avi HR_2/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_3.avi HR_3/frames_%03d.jpg -hide_banner
+ffmpeg -i HR_4.avi HR_4/frames_%03d.jpg -hide_banner
+cd ..
