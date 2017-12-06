@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "error",
+     "evalue": "/Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/imgwarp.cpp:3483: error: (-215) ssize.width > 0 && ssize.height > 0 in function resize\n",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31merror\u001b[0m                                     Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-5-870ff8f158d4>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m     18\u001b[0m \u001b[0msuffix\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0;34m\"jpg\"\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     19\u001b[0m \u001b[0mdir\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'/Users/Haoran/Desktop/train/00/'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 20\u001b[0;31m \u001b[0mcutimage\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mdir\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0msuffix\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+      "\u001b[0;32m<ipython-input-5-870ff8f158d4>\u001b[0m in \u001b[0;36mcutimage\u001b[0;34m(dir, suffix)\u001b[0m\n\u001b[1;32m     11\u001b[0m     \u001b[0;31m#dim =(224,224)      #指定尺寸w*h\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m     \u001b[0;31m#resized =cv2.resize(image,dim,interpolation = cv2.INTER_AREA) #这里采用的插值法是INTER_LINEAR\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 13\u001b[0;31m     \u001b[0mresized\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcv2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mresize\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mimage\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;36m224\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;36m224\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0minterpolation\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcv2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mINTER_CUBIC\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     14\u001b[0m     \u001b[0;31m#cv2.imshow(\"resize:%s\"%file,resized)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     15\u001b[0m     \u001b[0mcv2\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mimwrite\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"/Users/Haoran/Desktop/train/0/%s\"\u001b[0m\u001b[0;34m%\u001b[0m\u001b[0mfile\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mresized\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m#保存文件\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31merror\u001b[0m: /Users/travis/build/skvark/opencv-python/opencv/modules/imgproc/src/imgwarp.cpp:3483: error: (-215) ssize.width > 0 && ssize.height > 0 in function resize\n"
+     ]
+    }
+   ],
+   "source": [
+    "import cv2\n",
+    "import os\n",
+    "def cutimage(dir,suffix):\n",
+    " for root,dirs,files in os.walk(dir):\n",
+    "  for file in files:\n",
+    "   filepath = os.path.join(root, file)\n",
+    "   filesuffix = os.path.splitext(filepath)[1][1:]\n",
+    "   if filesuffix in suffix:  #遍历找到指定后缀的文件名[\"jpg\",png]等\n",
+    "    image = cv2.imread(file) #opencv剪切图片  \n",
+    "    #cv2.imshow(file,image) \n",
+    "    #dim =(224,224)      #指定尺寸w*h\n",
+    "    #resized =cv2.resize(image,dim,interpolation = cv2.INTER_AREA) #这里采用的插值法是INTER_LINEAR\n",
+    "    resized=cv2.resize(image,(224,224),interpolation=cv2.INTER_CUBIC)\n",
+    "    #cv2.imshow(\"resize:%s\"%file,resized)\n",
+    "    cv2.imwrite(\"/Users/Haoran/Desktop/train/0/%s\"%file,resized) #保存文件 \n",
+    " cv2.waitKey(0)     #退出\n",
+    " \n",
+    "suffix = [\"jpg\"]\n",
+    "dir = '/Users/Haoran/Desktop/train/00/'\n",
+    "cutimage(dir,suffix)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
